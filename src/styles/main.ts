@@ -1,4 +1,4 @@
-import { styled } from "@stitches/react";
+import { styled, createStitches } from "@stitches/react";
 
 export const Body = styled("body", {
   margin: "0px",
