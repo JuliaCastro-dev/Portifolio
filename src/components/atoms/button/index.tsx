@@ -3,11 +3,11 @@ import * as S from "./styles";
 
 export type Props = {
   icon: any;
-  onClick: Function;
+  onClick: any;
 };
 
 function Button({ icon, onClick }: Props) {
-  return <S.Container onClick={() => onClick}>{icon}</S.Container>;
+  return <S.Container onClick={onClick}>{icon}</S.Container>;
 }
 
 export default Button;

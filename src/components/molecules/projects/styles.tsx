@@ -31,14 +31,6 @@ const ContainerTitle = styled.div`
   align-self: center;
 `;
 
-const TechnologiesContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: "100%";
-  align-items: center;
-`;
-
 const Title = styled.text`
   font-weight: bold;
   letter-spacing: 1px;
@@ -63,12 +55,4 @@ const Description = styled.text`
   color: #fbfbff;
   font-family: sans-serif;
 `;
-export {
-  Container,
-  Title,
-  Description,
-  Content,
-  ContainerTitle,
-  SubTitle,
-  TechnologiesContainer,
-};
+export { Container, Title, Description, Content, ContainerTitle, SubTitle };

@@ -9,7 +9,19 @@ import {
   PhoneIcon,
 } from "../../../icons";
 
-function Header() {
+export type Props = {
+  onClickHome: Function;
+  onClickAbout: Function;
+  onClickProjects: Function;
+  onClickContact: Function;
+};
+
+function Header({
+  onClickAbout,
+  onClickContact,
+  onClickHome,
+  onClickProjects,
+}: Props) {
   return (
     <S.Container>
       <S.InnerHeader>
@@ -19,22 +31,22 @@ function Header() {
       <S.Services>
         <Button
           icon={<HomeIcon width={"50%"} height={"50%"} />}
-          onClick={() => {}}
+          onClick={onClickHome}
         />
 
         <Button
           icon={<PersonIcon width={"50%"} height={"50%"} />}
-          onClick={() => {}}
+          onClick={onClickAbout}
         />
 
         <Button
           icon={<ArticleIcon width={"50%"} height={"50%"} />}
-          onClick={() => {}}
+          onClick={onClickProjects}
         />
 
         <Button
           icon={<PhoneIcon width={"50%"} height={"50%"} />}
-          onClick={() => {}}
+          onClick={onClickContact}
         />
       </S.Services>
     </S.Container>
