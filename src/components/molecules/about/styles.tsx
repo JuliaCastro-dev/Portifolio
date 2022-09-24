@@ -37,6 +37,7 @@ const TechnologiesContainer = styled.div`
   justify-content: space-between;
   width: "100%";
   align-items: center;
+  padding-top: 1%;
 `;
 
 const Title = styled.text`

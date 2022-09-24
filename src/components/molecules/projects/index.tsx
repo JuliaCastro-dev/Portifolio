@@ -1,13 +1,7 @@
 import React from "react";
 import Button from "../../atoms/button";
 import * as S from "./styles";
-import {
-  ReactIcon,
-  HomeIcon,
-  PersonIcon,
-  ArticleIcon,
-  PhoneIcon,
-} from "../../../icons";
+import { HomeIcon, PersonIcon, ArticleIcon, PhoneIcon } from "../../../icons";
 
 function Projects() {
   return (

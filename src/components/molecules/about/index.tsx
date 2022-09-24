@@ -1,16 +1,17 @@
-import React from "react";
-
-import * as S from "./styles";
 import {
-  ReactIcon,
-  MySqlIcon,
-  ReduxIcon,
-  JavascriptIcon,
-  HtmlIcon,
-  CssIcon,
-  TypescriptIcon,
-} from "../../../icons";
-import { Tooltip } from "@mui/material";
+  ReactOriginal,
+  ReduxOriginal,
+  TypescriptOriginal,
+  JavascriptOriginal,
+  Html5Original,
+  Css3Original,
+  FigmaOriginal,
+  JiraOriginal,
+  CsharpOriginal,
+  GitOriginal,
+  GithubOriginal,
+} from "devicons-react";
+import * as S from "./styles";
 
 function About() {
   return (
@@ -23,8 +24,9 @@ function About() {
         <S.Description style={{ marginTop: "5px" }}>
           Olá, meu nome é Julia Castro, moro em São Paulo e tenho 18 anos, meu
           foco principal é desenvolvimento Mobile, onde tenho maior conhecimento
-          e quero me especializar. Porém também consigo atuar no back-end e no
-          desenvolvimento web.
+          e quero me especializar, meu objetivo na programação é me tornar
+          engenheira de software conseguindo atuar tanto no front-end como no
+          back-end e devops.
         </S.Description>
         <S.SubTitle style={{ marginTop: "10px", marginBottom: "5px" }}>
           {" "}
@@ -39,19 +41,17 @@ function About() {
           Tecnologias e Ferramentas
         </S.SubTitle>
         <S.TechnologiesContainer>
-          <HtmlIcon width={45} height={45} />
-
-          <CssIcon width={45} height={45} />
-
-          <JavascriptIcon width={45} height={45} />
-
-          <TypescriptIcon width={45} height={45} />
-
-          <ReactIcon width={60} height={60} />
-
-          <ReduxIcon width={40} height={35} />
-
-          <MySqlIcon width={60} height={60} />
+          <Html5Original size={"2.5vw"} />
+          <Css3Original size={"2.5vw"} />
+          <JavascriptOriginal size={"2.5vw"} />
+          <TypescriptOriginal size={"2.5vw"} />
+          <ReactOriginal size={"2.5vw"} />
+          <ReduxOriginal size={"2.5vw"} />
+          <GitOriginal size={"2.5vw"} />
+          <GithubOriginal size={"2.5vw"} />
+          <CsharpOriginal size={"2.5vw"} />
+          <FigmaOriginal size={"2.5vw"} />
+          <JiraOriginal size={"2.5vw"} />
         </S.TechnologiesContainer>
       </S.Content>
     </S.Container>
