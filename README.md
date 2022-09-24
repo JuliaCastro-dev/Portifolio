@@ -1,3 +1,3 @@
 # Portifólio 
-![image](https://user-images.githubusercontent.com/69862200/191643032-5b018874-712d-4f9c-aa59-5f0783d635f3.png)
-![image](https://user-images.githubusercontent.com/69862200/191643072-44e0874c-2f51-4e3f-916d-997e2c4bf8e2.png)
+![image](https://user-images.githubusercontent.com/69862200/192076855-f5f9a21e-7285-4101-b4ce-f9fdb2669da8.png)
+![image](https://user-images.githubusercontent.com/69862200/192076865-2462df1a-7bd4-4725-9920-607243daac1e.png)
